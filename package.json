@@ -1,0 +1,33 @@
+{
+    "name": "domenic-light",
+    "displayName": "Domenic Light",
+    "description": "Domenic Light Theme!",
+    "version": "1.0.0",
+    "publisher": "DomenicoCacozza",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/domenic23-c/domenic-light"
+    },
+    "keywords": [
+        "theme",
+        "light theme",
+        "Domenico Cacozza",
+        "domenicocacozza",
+        "domenic23-c"
+],
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Domenic Light",
+                "uiTheme": "vs",
+                "path": "./themes/Domenic Light-color-theme.json"
+            }
+        ]
+    }
+}
